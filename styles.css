@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:"Roboto", sans-serif;
+    font-weight:400 ;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color:#f2e8cf;
+}
+.nav{
+    height:110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-1 ul li{
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+.nav img{
+    height: 50px;
+    width: auto;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.nav-2  i{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content{
+    height: calc(100%-110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.content-left{
+    height: 100%;
+    padding: 80px 100px;
+    width: 40%;
+}
+.content-left h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #386641;
+    margin-bottom: 10px;
+}
+
+.content-left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.content-left p{
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: #386641;
+    color: white;
+    font-size: 15px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+.content-right{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.content-right::-webkit-scrollbar{
+   display: none;
+}
+.product{
+    height: 370px;
+    width: 250px;
+    background-color:#386641 ;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(56, 102, 65, 0.4);
+    display: inline-block;
+    margin-right: 20px;
+}
+.product img{
+    height: 100%;
+    width: 100%;
+   object-fit: contain;
+   position: absolute;
+   bottom: 20%;
+}
+.product h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    color: white;
+    padding: 0 5px;
+}
+.category{
+    position: absolute;
+    bottom: 15%;
+    font-weight: 500;
+    color: white;
+    padding: 0 5px;
+}
+.color{
+    position: absolute;
+    bottom: 10%;
+    font-weight: 500;
+    color: white;
+    padding: 0 5px;
+}
+.price{
+    font-size: 18px;
+    position: absolute;
+    bottom: 2%;
+    font-weight: 600;
+    color: white;
+    padding: 0 5px;
+}
